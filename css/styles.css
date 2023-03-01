@@ -89,6 +89,115 @@ body ul {
 }
 .gallery-card-btn:hover {
   background-color: #fff;
+  color: #000;
+}
+.gallery #card-1 {
+  background-image: url("../img/animais.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+.gallery #card-1:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+  background-image: liner-gradiente(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imganimais.jpg);
+}
+.gallery #card-2 {
+  background-image: url("../img/arquitetura.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+.gallery #card-2:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+  background-image: liner-gradiente(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgarquitetura.jpg);
+}
+.gallery #card-3 {
+  background-image: url("../img/cidade.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+.gallery #card-3:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+  background-image: liner-gradiente(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgcidade.jpg);
+}
+.gallery #card-4 {
+  background-image: url("../img/decoracao.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+.gallery #card-4:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+  background-image: liner-gradiente(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgdecoracao.jpg);
+}
+.gallery #card-5 {
+  background-image: url("../img/esportes.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+.gallery #card-5:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+  background-image: liner-gradiente(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgesportes.jpg);
+}
+.gallery #card-6 {
+  background-image: url("../img/natureza.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+.gallery #card-6:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+  background-image: liner-gradiente(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgnatureza.jpg);
+}
+.gallery #card-7 {
+  background-image: url("../img/paisagem.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+.gallery #card-7:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+  background-image: liner-gradiente(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgpaisagem.jpg);
+}
+.gallery #card-8 {
+  background-image: url("../img/pessoas.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+.gallery #card-8:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+  background-image: liner-gradiente(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgpessoas.jpg);
+}
+.gallery #card-9 {
+  background-image: url("../img/refeicoes.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+.gallery #card-9:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+  background-image: liner-gradiente(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgrefeicoes.jpg);
 }
 
 /*# sourceMappingURL=styles.css.map */
