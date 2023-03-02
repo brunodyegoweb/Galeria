@@ -40,6 +40,11 @@ body ul {
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 425px) {
+  .header-navbar ul {
+    display: none;
+  }
+}
 .header-navbar ul li {
   margin: 0 1rem;
   text-transform: uppercase;
@@ -56,6 +61,11 @@ body ul {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 425px) {
+  .header-social-media ul {
+    display: none;
+  }
 }
 .header-social-media ul li {
   margin: 0 1rem;
@@ -74,6 +84,7 @@ body ul {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0;
+  flex-direction: column;
 }
 .gallery-card {
   width: 31%;
@@ -84,6 +95,12 @@ body ul {
   justify-content: center;
   flex-direction: column;
   color: #fff;
+}
+@media (max-width: 425px) {
+  .gallery-card {
+    width: 90%;
+    margin-bottom: 6%;
+  }
 }
 .gallery-card-title {
   font-size: 2rem;
